@@ -1,0 +1,104 @@
+.maintag{
+    display: flex;
+
+}
+.h1tag{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 100px;
+
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+    
+
+
+}
+.peratag{
+    font-size: 14px;
+    font-weight: bold;
+    
+    cursor: pointer;
+    transition: color 0.3s ease;
+    justify-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40%;
+   
+
+
+}
+.imgtag{
+    
+    float:right;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+
+}
+.img{
+
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+}
+.btntag{
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #ee9bb8;
+    text-align: center;
+    font-weight: bold;
+    
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.btntag:hover{
+    background-color: rgb(231, 88, 136);
+}
+
+@media  (max-width: 600px) {
+    .maintag{
+        flex-direction: column;
+    }
+   .h1tag{
+    width: 100%;
+    margin: 10px 10px;
+    font-size: 20px;
+   }
+
+ 
+   
+   .peratag{
+        margin: 10px 10px;
+        width: 90%;
+    
+   }
+   .imgtag{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin: 10px 10px;
+
+   }
+   .img{
+        width: 100%;
+        height: auto;
+
+   }
+   .btntag{
+        width: 50%;
+        margin: 10px 10px;
+        
+   }
+
+}
