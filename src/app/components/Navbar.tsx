@@ -39,7 +39,7 @@ const Navbar = () => {
       {/*for Small Divice with toggle menu bar*/}
       <div className={nav.buttonTag}>
         <button onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <RxCross2 size={20} /> : <IoMenuOutline size={20} />}
+          {isOpen ? <RxCross2 size={20} className="md:hidden lg:hidden" /> : <IoMenuOutline size={20} className="md:hidden lg:hidden"/>}
         </button>
       </div>
 

@@ -87,12 +87,13 @@
         position: relative;
         top: 0px;
         right: 0px;
-        margin: 10px 10px;
+        
 
    }
    .img{
         width: 100%;
-        height: auto;
+        height: 50%;
+
 
    }
    .btntag{
